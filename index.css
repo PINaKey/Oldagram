@@ -1,12 +1,20 @@
-html, body {
+html,
+body {
     margin: 0 auto;
     padding: 0;
     font-family: "Source Sans 3", sans-serif;
     width: 375px;
+    background-color: #ededed;
 }
 
 header {
-    border-bottom: 1px solid #C6C6C6;
+    border-bottom: 1px solid #c6c6c6;
+    background-color: #ffffff;
+}
+
+.post {
+    background-color: #ffffff;
+    margin-bottom: 30px;
 }
 
 .profile-container {
@@ -14,7 +22,9 @@ header {
 }
 
 /* Typography */
-.name, .likes, .comment {
+.name,
+.likes,
+.comment {
     font-size: 13px;
     font-weight: 700;
 }
@@ -28,8 +38,13 @@ span {
     font-size: 12px;
 }
 
-.likes, .comment {
+.likes,
+.comment {
     margin: 0 0 10px 10px;
+}
+
+.comment {
+    padding-bottom: 15px;
 }
 
 /* Images */
@@ -47,7 +62,7 @@ span {
 .post-avatar {
     width: 34px;
     border-radius: 20px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .post-img {
@@ -57,4 +72,5 @@ span {
 .icons {
     width: 35px;
     margin: 10px;
+    cursor: pointer;
 }
